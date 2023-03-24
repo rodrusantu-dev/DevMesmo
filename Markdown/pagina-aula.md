@@ -1,4 +1,4 @@
-# 📕 AULAS - Projeto **Bizurado DEV**
+# 📕 AULAS - Projeto **DEV Mesmo ?**
 
 
 Abaixo segue os links com os materiais já disponibilizados. Lembrando que o conceito do projeto é fornecer conhecimento de forma **gratuita**, e de nível **básico** focado em quem está chegando *zerado de conhecimento*. Para estudar mais a frente, você deve procurar cursos que possam lhe avançar no nível no conhecimento.
