@@ -1,0 +1,43 @@
+/*ZERANDO A MARGEM PADRÃO DO NAVEGADOR*/
+* {
+    margin: 0 0 0 0; 
+    font-family: 'roboto slab', serif; 
+}
+
+/*PADRONIZA OS TÍTULOS EM GERAL*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto slab', serif;
+    font-weight: 800;  
+    padding-bottom: 20px; 
+           
+}
+
+/*AQUI PADRONIZA A FONTE DOS TEXTOS PARAGRAFO GERAL*/
+p {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+li {
+    font-size: 17px;  
+}
+
+/*AQUI DESCARACTERIZA O LINK - DEIXA APARÊNCIA DE TEXTO*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*AQUI FAZ O ESTILO QUANDO PASSA O MOUSE*/
+a:hover {
+    color: #b429df;
+    text-decoration: underline;
+}
+
+
+
+    
+
+
+
+

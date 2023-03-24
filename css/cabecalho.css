@@ -1,0 +1,26 @@
+.container-cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: #eceeef;
+    border-bottom: 12px solid #a5bac5;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.logo-menor {
+    width: 320px;  
+}
+
+/*DIMINUI A LOGO QUANDO A TELA CHEGAR EM 800PX*/
+@media screen and (max-width: 800px){
+    .logo-menor {
+        width: 250px;
+        
+    }
+/*DIMINUI A LOGO QUANDO A TELA CHEGAR EM 400PX (CELULAR)*/
+    @media screen and (max-width: 400px){
+        .logo-menor {
+            width: 180px;
+            
+        }
+}}
