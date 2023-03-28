@@ -1,0 +1,34 @@
+
+
+/*aqui retira a formatação padrão do navegador e poe sem adornos e cor preta*/
+.header-navigation-item {
+    text-decoration: none;
+    color: #a5bac5;
+    background-color: #a5bac5;
+    font-weight: 500;
+}
+
+.header-navigation-list {
+    text-decoration: none;
+    color: #2003a0;
+    background-color: #a5bac5;
+    display: flex;
+    align-items: right;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-right: 50px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+/*AQUI ESTRUTURA PARA RESPONSIVO DA BARRA HEADER*/
+@media screen and (max-width: 768px){
+.header-navigation-list {
+    display: flex;
+    align-items: right;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+}}
