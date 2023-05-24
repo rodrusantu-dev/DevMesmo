@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/*ZERANDO A MARGEM PADRÃO DO NAVEGADOR*/
+* {
+  margin: 0 0 0 0;
+  font-family: "Roboto-Regular";
+}
+
+/*PADRONIZA OS TÍTULOS EM GERAL*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+/*AQUI PADRONIZA A FONTE DOS TEXTOS PARAGRAFO GERAL*/
+p {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-size: 17px;
+}
+
+/*AQUI DESCARACTERIZA O LINK - DEIXA APARÊNCIA DE TEXTO*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*AQUI FAZ O ESTILO QUANDO PASSA O MOUSE*/
+a:hover {
+  color: #b429df;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../../../assets/fonts/Roboto-Regular.ttf");
+}
+/*RESPONSIVIDADE DO BANNER PRINCIPAL*/
+@media screen and (max-width: 1800px) {
+  .banner-principal {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #1d031c;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    margin: 0 0 0 0;
+  }
+}
+.container-cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: #eceeef;
+  border-bottom: 12px solid #a5bac5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-menor {
+  width: 320px;
+}
+
+/*DIMINUI A LOGO QUANDO A TELA CHEGAR EM 800PX*/
+@media screen and (max-width: 800px) {
+  .logo-menor {
+    width: 250px;
+  }
+  /*DIMINUI A LOGO QUANDO A TELA CHEGAR EM 400PX (CELULAR)*/
+}
+@media screen and (max-width: 800px) and (max-width: 400px) {
+  .logo-menor {
+    width: 180px;
+  }
+}
+.conteudo-titulo {
+  display: flex;
+  justify-content: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: red;
+}
+
+.conteudo-subtitulo {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.conteudo-texto {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: justify;
+}
+
+.conteudo-titulo-aula {
+  display: flex;
+  justify-content: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.PARTE-AULAS {
+  background-color: rgb(7, 64, 148);
+  color: rgb(255, 255, 255);
+}
+
+.link-aula {
+  display: flex;
+  justify-content: center;
+}
+
+.link-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.link-emtexto {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.btnPai {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.btnFilho {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background: #F7761D;
+  border: 0;
+  border-radius: 20px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+  .conteudo-titulo {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+  }
+  .conteudo-texto {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+  }
+  .conteudo-titulo-aula {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+  }
+  .link-emtexto {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+}
+/*aqui retira a formatação padrão do navegador e poe sem adornos e cor preta*/
+.header-navigation-item {
+  text-decoration: none;
+  color: #a5bac5;
+  background-color: #a5bac5;
+  font-weight: 500;
+}
+
+.header-navigation-list {
+  text-decoration: none;
+  color: #2003a0;
+  background-color: #a5bac5;
+  display: flex;
+  align-items: right;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-right: 50px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+/*AQUI ESTRUTURA PARA RESPONSIVO DA BARRA HEADER*/
+@media screen and (max-width: 768px) {
+  .header-navigation-list {
+    display: flex;
+    align-items: right;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

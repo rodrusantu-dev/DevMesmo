@@ -14,3 +14,7 @@
 - Discuta ideias em Issues
 - Compartilhe o repositório com a sua comunidade
 - Mande feedbacks no [LinkedIn](https://www.linkedin.com/in/rsantosmenezes/)
+
+## Atualizações
+
+- [ ] **24/05/2023** atualização do código incluindo Sass
