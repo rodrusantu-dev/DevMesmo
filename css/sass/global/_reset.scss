@@ -1,7 +1,7 @@
 /*ZERANDO A MARGEM PADRÃO DO NAVEGADOR*/
 * {
     margin: 0 0 0 0; 
-    font-family: 'RobotoSlab-Regular'; 
+    font-family: 'Roboto Slab', serif;
 }
 
 /*PADRONIZA OS TÍTULOS EM GERAL*/
@@ -33,11 +33,6 @@ a:hover {
     text-decoration: underline;
 }
 
-@font-face {
-    font-family: 'RobotoSlab-Regular';
-    src: url("../../../assets/fonts/RobotoSlab-Regular.ttf");
-    font-weight: normal;
-  }
 
 
     
